@@ -49,6 +49,11 @@
     "description": "if you have group fill the group username here without @",
     "required": false,
     "value": "CFC_BOT_SUPPORT" 
+    },
+    "HEROKU_API_KEY": {
+    "description": "GET FROM HEROKU ACCOUNT"
+    "required": false,
+    "value": "GET FROM HEROKU ACCOUNT"
     }
   }
 }
