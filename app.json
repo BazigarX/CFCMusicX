@@ -44,6 +44,11 @@
     "description": "USERNAME OF BOT WITHOUT @",
     "required": true,
     "value": "@NOINOIMUSICBOT"
+    },
+    "GROUP_SUPPORT": {
+    "description": "if you have group fill the group username here without @",
+    "required": false,
+    "value": "CFC_BOT_SUPPORT" 
     }
   }
 }
