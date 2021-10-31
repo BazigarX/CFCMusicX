@@ -137,7 +137,7 @@ async def play(_, message: Message):
     if audio:
         if round(audio.duration / 60) > DURATION_LIMIT:
             raise DurationLimitError(
-                f"❰𝗩𝗶𝗱𝗲𝗼 🍭❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞"
+                f"❰𝗩𝗜𝗗𝗘𝗢❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞"
             )
 
         file_name = get_file_name(audio)
@@ -150,11 +150,9 @@ async def play(_, message: Message):
         keyboard = InlineKeyboardMarkup(
             [
                 [
-                    InlineKeyboardButton(
-                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹📡",
-                            url=f"https://t.me/REGALTOS_BOTZ"),
+                    
                         InlineKeyboardButton(
-                            text="𝗚𝗿𝗼𝘂𝗽⭐",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 📀",
                             url=f"https://t.me/CFC_BOT_SUPPORT")
                    
                 ]
@@ -191,11 +189,9 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                 [
                     [
+                         
                         InlineKeyboardButton(
-                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹📡",
-                            url=f"https://t.me/REGALTOS_BOTZ"),
-                        InlineKeyboardButton(
-                            text="𝗚𝗿𝗼𝘂𝗽⭐",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 📀",
                             url=f"https://t.me/CFC_BOT_SUPPORT")
 
                     ]
@@ -209,18 +205,16 @@ async def play(_, message: Message):
             keyboard = InlineKeyboardMarkup(
                     [
                         [
-                            InlineKeyboardButton(
-                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹📡",
-                            url=f"https://t.me/REGALTOS_BOTZ"),
+                             
                         InlineKeyboardButton(
-                            text="𝗚𝗿𝗼𝘂𝗽⭐",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 📀",
                             url=f"https://t.me/CFC_BOT_SUPPORT")
 
                         ]
                     ]
                 )
         if (dur / 60) > DURATION_LIMIT:
-             await lel.edit(f"❰𝗩𝗶𝗱𝗲𝗼 🍭❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞")
+             await lel.edit(f"❰𝗩𝗜𝗗𝗘𝗢❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻 {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞")
              return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)     
@@ -263,18 +257,16 @@ async def play(_, message: Message):
                 [
                     [
                       
+                         
                         InlineKeyboardButton(
-                            text="𝗖𝗵𝗮𝗻𝗻𝗲𝗹📡",
-                            url=f"https://t.me/REGALTOS_BOTZ"),
-                        InlineKeyboardButton(
-                            text="𝗚𝗿𝗼𝘂𝗽⭐",
+                            text="𝗦𝗨𝗣𝗣𝗢𝗥𝗧 📀",
                             url=f"https://t.me/CFC_BOT_SUPPORT")
                     ]
                 ]
             )
         
         if (dur / 60) > DURATION_LIMIT:
-             await lel.edit(f"❰𝗩𝗶𝗱𝗲𝗼 🍭❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻  {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞")
+             await lel.edit(f"❰𝗩𝗜𝗗𝗘𝗢❱ 𝗟𝗼𝗻𝗴𝗲𝗿 𝗧𝗵𝗮𝗻  {DURATION_LIMIT} 𝗠𝗶𝗻𝘂𝘁𝗲𝘀 𝗔𝗿𝗲𝗻'𝘁 𝗔𝗹𝗹𝗼𝘄𝗲𝗱 ✨ 𝗧𝗼 𝗣𝗹𝗮𝘆 ❤️🤞")
              return
         requested_by = message.from_user.first_name
         await generate_cover(requested_by, title, views, duration, thumbnail)  
