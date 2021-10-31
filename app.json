@@ -39,6 +39,11 @@
      "description": "OWNER ID FOR BRODCAST MESSAGE.",
      "required": true,
      "value": "2008818558"
+    },
+    "BOT_USERNAME": {
+    "description": "USERNAME OF BOT WITHOUT @",
+    "required": true,
+    "value": "@NOINOIMUSICBOT"
     }
   }
 }
