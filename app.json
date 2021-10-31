@@ -35,10 +35,10 @@
       "required": true,
       "value": "10"
     },
-     "OWNER_USERNAME": {
-     "description": "OWNER USERNAME WITHOUT @.",
+     "OWNER_ID": {
+     "description": "OWNER ID FOR BRODCAST MESSAGE.",
      "required": true,
-     "value": "BAZIGARYT"
+     "value": "2008818558"
     }
   }
 }
