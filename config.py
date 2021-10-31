@@ -20,3 +20,5 @@ SUDO_USERS = list(map(int, getenv("SUDO_USERS").split()))
 OWNER_ID = getenv("OWNER_ID") 
 
 BOT_USERNAME = getenv("BOT_USERNAMR") 
+
+GROUP_SUPPORT = getenv("GROUP_SUPPORT") 
