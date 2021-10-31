@@ -1,4 +1,4 @@
-<p align="center"><a href="https://t.me/REGALTOS_BOTZ"><img src="https://github.com/BazigarYT/eSportMusicX/raw/main/etc/Bazigar.png"></a></p>
+<p align="center"><a href="https://t.me/REGALTOS_BOTZ"><img src="https://telegra.ph/file/f5652cf748e9f27875bf7.jpg"></a></p>
 
 
 
