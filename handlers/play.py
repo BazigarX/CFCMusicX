@@ -284,7 +284,7 @@ async def play(_, message: Message):
         position = await queues.put(message.chat.id, file=file_path)
         await message.reply_photo(
         photo="final.png", 
-        caption="**❰  𝗡𝗼𝗶𝗻𝗼𝗶 𝗠𝘂𝘀𝗶𝗰 ❱ 𝗦𝗼𝗻𝗴 ❤️ 𝗣𝗼𝘀𝗶𝘁𝗶𝗼𝗻 💫🤟** {}".format(
+        caption="**❰𝗡𝗢𝗜𝗡𝗢𝗜❱** {}".format(
         position
         ),
         reply_markup=keyboard)
@@ -295,7 +295,7 @@ async def play(_, message: Message):
         await message.reply_photo(
         photo="final.png",
         reply_markup=keyboard,
-        caption="**❰ 𝗡𝗼𝗶𝗻𝗼𝗶 𝗠𝘂𝘀𝗶𝗰 ❱ Now 😄 𝗣𝗹𝗮𝘆𝗶𝗻𝗴 📀 𝗔𝘁 🤟 `{}`...**".format(
+        caption="**❰𝗡𝗢𝗜𝗡𝗢𝗜❱ `{}`...**".format(
         message.chat.title
         ), )
         os.remove("final.png")
