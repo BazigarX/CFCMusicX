@@ -91,7 +91,7 @@ async def generate_cover(requested_by, title, views, duration, thumbnail):
                    & ~filters.via_bot)
 async def play(_, message: Message):
 
-    lel = await message.reply("🔄 **𝗟𝗼𝗮𝗱 𝗕𝗲𝘀𝘁 👌𝗤𝘂𝗮𝗹𝗶𝘁𝘆 ❤️ 𝗦𝗼𝗻𝗴 🎶🤟**")
+    lel = await message.reply("🔄 **𝗙𝗶𝗻𝗱𝗶𝗻𝗴 𝗚𝗼𝗼𝗱 𝗤𝘂𝗮𝗹𝗶𝘁𝘆 𝗢𝗳 𝗠𝘂𝘀𝗶𝗰🎶🤟**")
     
     administrators = await get_administrators(message.chat)
     chid = message.chat.id
